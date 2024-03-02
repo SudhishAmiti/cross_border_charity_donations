@@ -31,8 +31,7 @@ Technology :
 
   📜 JavaScript
 Technology :
-	JavaScript,	
-	Angular,	
+	JavaScript,		
 	React,	
  	npm,	
 	Node.js	
