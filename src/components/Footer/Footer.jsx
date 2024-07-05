@@ -12,7 +12,7 @@ const Footer = () => {
                   <ion-icon name="bag"></ion-icon>
                   <h1>Welfare</h1>
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor libero id et, in gravida. Sit diam duis mauris nulla cursus. Erat et lectus vel ut sollicitudin elit at amet.</p>
+              <p>This platform enables cross-border donations, allowing you to contribute to various charities worldwide.</p>
             </Col>
             <Col md={3} sm={5} className=''>
               <h2>About Us</h2>
@@ -35,7 +35,7 @@ const Footer = () => {
             <Col md={3} sm={5} className=''>
               <h2>Contact Us</h2>
               <ul>
-                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, possimus! </li>
+                
                 <li>Email: welfare.help@gmail.com</li>
                 <li>Phone: +91 000 000 0000</li>
               </ul>

@@ -172,6 +172,10 @@
 .media-cart {
   display: none;
 }
+.donate {
+  font-size: x-large;
+  margin: 4px;
+}
 
 @media (max-width:767px) {
   .navbar-toggler span {

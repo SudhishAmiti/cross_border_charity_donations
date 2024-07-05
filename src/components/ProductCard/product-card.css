@@ -59,6 +59,7 @@
     width: 100px;
     height: 35px;
     border-radius: 5px;
+    
 }
 
 .price button:hover {
@@ -72,6 +73,7 @@ button.add {
     justify-content: center;
     align-items: center;
     font-size: 25px;
+    font-size: medium
 }
 
 .product-like {

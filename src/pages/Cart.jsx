@@ -1,8 +1,8 @@
 import { useEffect } from "react";
-import { link, useNavigate } from 'react-router-dom';
-import Paypal from "../components/payments/PayPal";
+import {useNavigate } from 'react-router-dom';
 import { Col, Container, Row } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
+import { IoTrashBin } from "react-icons/io5";
 import {
   //addToCart,
   //decreaseQty,
@@ -52,12 +52,12 @@ const Cart = () => {
 
                         </Col>
                         <Col>
-                          <button className="btn"
+                          <button className="payBtn"
                             onClick={() => {
                               navigate("/paypal");
                             }}
                           >
-                            <h3>Checkout</h3>
+                            Checkout
                           </button>
                         </Col>
                       </Row>
@@ -66,7 +66,7 @@ const Cart = () => {
                       className="delete"
                       onClick={() => dispatch(deleteProduct(item))}
                     >
-                      <ion-icon name="close"></ion-icon>
+                      <IoTrashBin className="trash"/>
                     </button>
                   </Row>
                 </div>

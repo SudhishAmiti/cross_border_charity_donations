@@ -113,8 +113,8 @@ button {
 }
 
 .cart-list {
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
+  /* flex-direction: row; */
   position: relative;
   background: white;
   margin-bottom: 30px;
@@ -132,6 +132,13 @@ button {
   height: 100%;
   max-width: 300px;
   object-fit: contain;
+}
+.payBtn {
+  background-color: blue;
+
+}
+.trash {
+  font-size: x-large;
 }
 
 @media (max-width: 767px) {
@@ -236,7 +243,7 @@ button {
 button.delete {
   position: absolute;
   right: 0;
-  top: 20px;
+  top: 10px;
   width: max-content;
   border: none;
   outline: none;
